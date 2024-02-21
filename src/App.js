@@ -1,24 +1,19 @@
-import Alert from 'react-bootstrap/Alert';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
+import Index from './pages/index';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
     <div className="App">
-    {[
-        'primary',
-        'secondary',
-        'success',
-        'danger',
-        'warning',
-        'info',
-        'light',
-        'dark',
-      ].map((variant) => (
-        <Alert key={variant} variant={variant}>
-          This is a {variant} alert—check it out!
-        </Alert>
-      ))}
+
+    <Router>
+    <Routes>
+    <Route path='/' element={<Index />} />
+    </Routes>
+    </Router>
+   
 
      
     </div>
