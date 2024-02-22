@@ -8,10 +8,9 @@ const Apropos = () => {
         <Container>
         <section className="page-section bg-white text-black mb-0" id="about">
             <div className="container">
-                <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
                 <div className="row">
-                    <div className="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div className="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div className="col-lg-4 ms-auto"><p class="lead">Passionné par l'informatique dés mon plus jeune age, c'est tout naturellement que je me suis formé en autodidacte</p></div>
+                    <div className="col-lg-4 me-auto"><p class="lead">À ce jour, j'ai suivi une formation diplomante chez OpenClassrooms afin d'acquérir les compétences nécéssaires dans le développement frontend avec des langages de programmation tels que Html , Css, Javascript, React...</p></div>
                 </div>
                 <div className="text-center mt-4">
                     <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">

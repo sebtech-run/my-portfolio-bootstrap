@@ -1,3 +1,10 @@
+.section-navbar {
+  background-color: gray;
+}
+.section-navbar__name h4 {
+  color: white;
+}
+
 .bird {
   border-radius: 50%;
   width: 200px;
@@ -12,6 +19,23 @@ header {
   padding: 50px 0 50px 0;
 }
 
+.strong-color {
+  color: blue;
+}
+
+.section-formation {
+  height: 500px;
+  border: 1px solid black;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.section-formation__title h2 {
+  text-align: center;
+  color: burlywood;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
 .card-portfolio {
   width: 500px;
   height: 200px;
@@ -19,4 +43,74 @@ header {
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+
+.section-competence {
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.section-competence__div1 {
+  width: 60%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.section-competence__div1 h2 {
+  color: burlywood;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px;
+  background-color: white;
+  width: 200px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.section-competence__div1__text {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 20px;
+}
+.section-competence__div1__text i {
+  font-size: 25px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+.section-competence__div1__text h4 {
+  color: black;
+}
+.section-competence__div2 {
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.section-competence__div2 h2 {
+  color: burlywood;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px;
+  background-color: white;
+  width: 200px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.section-competence__div2 h4 {
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
