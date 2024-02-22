@@ -1,11 +1,12 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
 
 import '../styles/style.css';
 
 const Apropos = () => {
     return (
-        
-        <section className="page-section bg-primary text-white mb-0" id="about">
+        <Container>
+        <section className="page-section bg-white text-black mb-0" id="about">
             <div className="container">
                 <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
                 <div className="row">
@@ -20,6 +21,7 @@ const Apropos = () => {
                 </div>
             </div>
         </section>
+        </Container>
         
     );
 };

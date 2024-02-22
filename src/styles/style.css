@@ -10,4 +10,13 @@ header {
 
 #about {
   padding: 50px 0 50px 0;
+}
+
+.card-portfolio {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

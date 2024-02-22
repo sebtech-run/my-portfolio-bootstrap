@@ -5,10 +5,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+import '../styles/style.css';
+
 const Navigation = () => {
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-body-secondary">
         <Container>
           <Navbar.Brand href="#home">bouillet sebastien</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
