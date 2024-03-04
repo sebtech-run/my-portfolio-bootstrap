@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 
+
 import '../styles/style.css';
 
 const Apropos = () => {
@@ -20,6 +21,7 @@ const Apropos = () => {
                 </div>
             </div>
         </section>
+       
         </Container>
         
     );
