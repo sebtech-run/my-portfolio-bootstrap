@@ -19,9 +19,7 @@ const Formation = () => {
         <p>2023-2024 : Formation Intégrateur Web Open-Classrooms</p>
             
             </div>
-            <div className='section-formation__div1'>
-            
-            </div>
+           
        </section>
       </Container>
     );

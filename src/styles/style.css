@@ -61,15 +61,50 @@ header {
   padding: 30px;
   border: 1px solid black;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-.card-portfolio {
-  width: 500px;
-  height: 200px;
+.section-portfolio__list {
+  margin-top: 30px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+  flex-direction: column;
+  gap: 10px;
+}
+.section-portfolio__list .card-one {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 380px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.section-portfolio__list .card-one img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 56%;
+}
+.section-portfolio__list .card-one .card-title {
+  position: absolute;
+  background-color: white;
+  left: 20px;
+  top: -10%;
+  border-radius: 10px;
+  padding: 5px;
+}
+.section-portfolio__list .card-one .card-title h2 {
+  color: black;
+}
+.section-portfolio__list .card-one .card-text {
+  padding: 15px;
+}
+.section-portfolio__list .card-one .card-text .titre {
+  font-size: 20px;
+  font-family: "Anta", sans-serif;
+  font-weight: 700;
 }
 
 .section-competence {
@@ -158,6 +193,18 @@ header {
 }
 
 .section-footer {
-  height: 80px;
+  height: 120px;
   background-color: black;
+  margin-top: 50px;
+}
+.section-footer_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.section-footer_text p {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
